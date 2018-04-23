@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: bFDyRxP6mL/d3xBw7psvZq7Cwpy4mdqOxWPYsHR6W+++vGJ8jX293TmJKZfs+l1vLyyVCbWs50r7z/eOu6uMQh+0zM20MF2v4SQ6KUED7y+wneVZ2g/UYlzCeSDtm+9PCafGfpg+sPyW3f1sfguUvmpIOV+CltY5+IkD5L3ZyTfF5ETmFJJZG6lP3F4R+2OuMw5UiYAVYiSQJgKv+AofzqmLGFN8WCoBjxrkTw5Q7acJpwH7FBb17SumlIzidkAvMNYQxC/ofr7eU5BaYztOV3GpFoOaSVpcT04t/ibHstUvWsETEIaImOyOuNRLBS0w+3Hk90IgMz5sypXyQOlTE1xBISSJwQCtys/rXhQjl1zg+jhgY3RwA8cx1/zkNrP6Dkw2ay/1qmmPN69mrrU8/2ljc6nPB4cABIam36mKSRVaLt/2/s4kXvYP+gMYufs3O2N6UEPE8+O4vPdogn+vwFfetiiypd02m2QLaNU6Ud29eWkZLEvJbAcxLSaHyfq7TZJaf9HAi7cLm51zHHtmbuWYGj7gbQCg7mxRmIouNdTFIkx/h2AfCiRKLQkfZVWKxu/ZVBYATcpRzMYT2OmSjFZIvRRGNYDzVCZB5O6g2Ed9tgp5dyQyu1sS9fAaHwHLT3hPtE4G5OGzD8PQKb6X6258OXmyO4IwqmNRPD0dd+w=
+  app: glacial-plateau-51938
+  on:
+    repo: JeffWilkey/node-shopping-list-integration-tests
